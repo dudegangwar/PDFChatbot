@@ -16,13 +16,19 @@ Make sure you have Python installed on your system.
 
 1. Clone the repository to your local machine.
 
-```bash
-git clone https://github.com/dudegangwar/PDFChatbot.git
-cd PDFChatbot
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```git clone https://github.com/dudegangwar/PDFChatbot.git```
+```cd PDFChatbot```
 
-pip install -r requirements.txt
 
-streamlit run app.py
+Install the required packages:
+
+```pip install -r requirements.txt```
+
+Create your own .env file with the following variables:
+
+```OPENAI_API_KEY=[your-openai-api-key]```
+
+To run the Streamlit app:
+
+```streamlit run app.py```
